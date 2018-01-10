@@ -26,8 +26,9 @@
           },
           "category": {
             "type": "string",
-            "selector": "body",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 6
           }
         }
       }
