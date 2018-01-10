@@ -34,7 +34,7 @@
       },
       "selector": "font",
       "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect.",
-      "control": "text"
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
@@ -52,7 +52,7 @@
     "warning": {
       "type": "string",
       "selector": "font",
-      "control": "text",
+      "control": "property.innerText",
       "selectContains": "Admin directory should be removed"
     },
     "isLogin": {
