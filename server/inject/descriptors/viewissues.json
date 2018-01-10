@@ -5,6 +5,14 @@
       "type": "identifier",
       "selector": "html",
       "control": "url.view_all_bug_page"
+    },
+    "issuelist": {
+      "type": "array",
+      "selectorAll": "#buglist tr[bgcolor]",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
