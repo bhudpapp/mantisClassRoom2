@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isViewissues": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.view_all_bug_page"
+    }
+  },
+  "connect": []
+}
