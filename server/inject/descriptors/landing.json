@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.my_view_page"
+    },
+    "clickAssignToMe": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
