@@ -13,5 +13,12 @@
       "selectContains": "Assigned to Me (Unresolved)"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "action": "clickAssignToMe"
+    }
+  ]
 }
