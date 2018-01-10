@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "mantisclassroom2_2",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",

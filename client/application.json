@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "93cddc1b",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "bhudpapp"
+  "creatorId": "bhudpapp",
+  "id": "mantisclassroom2_2",
+  "previewImageURL": "/previews/93cddc1b-mantisclassroom2_2/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/bhudpapp/mantisClassRoom2",
+  "creatorName": "Daniel Papp",
+  "sdks": []
 }
