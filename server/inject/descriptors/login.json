@@ -54,6 +54,11 @@
       "selector": "font",
       "control": "text",
       "selectContains": "Admin directory should be removed"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.login_page"
     }
   },
   "connect": []
