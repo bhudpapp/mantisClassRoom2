@@ -46,5 +46,14 @@
       }
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isViewissues"
+      ],
+      "screens": [
+        "viewissues"
+      ]
+    }
+  ]
 }

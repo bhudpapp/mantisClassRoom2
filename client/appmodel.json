@@ -50,27 +50,27 @@
     "type": "object",
     "comment": "ListView",
     "properties": {
-      "listItems": {
+      "issuelist": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "string": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
+            "id": {
+              "type": "string"
             },
-            "action": {
-              "type": "action"
+            "summary": {
+              "type": "string"
             },
-            "icon": {
+            "category": {
+              "type": "string"
+            },
+            "severity": {
+              "type": "string"
+            },
+            "updated": {
               "type": "string"
             }
           }
-        },
-        "update": {
-          "type": "none"
         }
       }
     }
