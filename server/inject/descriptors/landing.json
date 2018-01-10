@@ -8,8 +8,9 @@
     },
     "clickAssignToMe": {
       "type": "action",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []
