@@ -48,6 +48,12 @@
       },
       "selector": ".button[value=\"Login\"]",
       "control": "action.button"
+    },
+    "warning": {
+      "type": "string",
+      "selector": "font",
+      "control": "text",
+      "selectContains": "Admin directory should be removed"
     }
   },
   "connect": []
